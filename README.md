@@ -51,17 +51,17 @@ Please visit https://strike.me/developer/ for getting an API Key
 Replace the placeholder YOUR_STRIKE_API_KEY in bitcoin_pushups.py with your API key.
 
 
-3. Configure Settings
+3. Configure Settings:
 
-Threshold: Change the number of pushups required to trigger a transaction by updating the threshold variable.
+Threshold: 
+Change the number of pushups required to trigger a transaction by updating the threshold variable.
 Transaction Amount: Modify the amount in USD to convert to BTC by adjusting the "amount" field in the create_currency_exchange_quote() function.
 
-
-Example Configuration:
 
 To change the pushup threshold:
 
     threshold = 10  # Adjust the number here
+
 
 To change the amount of USD converted:
 
