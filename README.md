@@ -29,7 +29,7 @@ Setup
 1. Clone this repository
 
 Copy code
-git clone https://github.com/
+git clone https://github.com/JonDeritis/Bitcoin-Pushups.git
 
 Open
 cd bitcoin-pushups
