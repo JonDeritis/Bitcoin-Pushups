@@ -20,8 +20,11 @@ API Key: A Strike API key is required for transactions.
 (Please visit https://strike.me/developer/ for getting an API Key)
 
 Python Packages:
+
 opencv-python
+
 mediapipe
+
 requests (for API calls)
 
 To install dependencies:
