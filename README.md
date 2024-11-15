@@ -1,9 +1,11 @@
-Bitcoin Pushup SMASH BUY
+Bitcoin Pushups!!! 
+SMASH BUY THAT BITCOIN!!!
 
 This project is a unique and fun way to convert USD to BTC using the Strike API—every 10 pushups, a transaction is initiated! 
 The code leverages computer vision through a webcam to count pushups and performs a Bitcoin transaction once a specified threshold is reached.
+You will see that it is set for 10 pushups, this is for testing... If you are an OG you know that it is 100 Pushups until 100k! The same goes with the USD converted, definately DCA worthy amounts should be considered here! ;)
 
-Features
+Features:
 
 Real-Time Pushup Detection: Uses OpenCV and MediaPipe for webcam-based pushup tracking.
 Automated Bitcoin Transaction: After hitting the pushup threshold, the Strike API initiates a USD-to-BTC conversion.
@@ -12,6 +14,7 @@ Customizable Threshold and Amount: Easily adjust the number of pushups required 
 Requirements:
 Python 3.x
 API Key: A Strike API key is required for transactions.
+(Please visit https://strike.me/developer/ for getting an API Key)
 Python Packages:
 opencv-python
 mediapipe
