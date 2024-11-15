@@ -28,20 +28,21 @@ requests (for API calls)
 To install dependencies:
 
 Copy code:
-pip install opencv-python mediapipe requests
+
+    pip install opencv-python mediapipe requests
 
 
 Setup
 1. Clone this repository
 
+Copy code:
 
-Copy code
-git clone https://github.com/JonDeritis/Bitcoin-Pushups.git
+    git clone https://github.com/JonDeritis/Bitcoin-Pushups.git
 
 
 Open Git Bash and type (or wherever you put it): 
 
-cd bitcoin-pushups
+    cd bitcoin-pushups
 
 
 2. Set up your Strike API key
@@ -56,15 +57,13 @@ Threshold: Change the number of pushups required to trigger a transaction by upd
 Transaction Amount: Modify the amount in USD to convert to BTC by adjusting the "amount" field in the create_currency_exchange_quote() function.
 
 
-    Example Configuration:
+Example Configuration:
 
-
-    To change the pushup threshold:
+To change the pushup threshold:
 
     threshold = 10  # Adjust the number here
 
-
-    To change the amount of USD converted:
+To change the amount of USD converted:
 
     "amount": {
     "amount": "1.00",  # Change "1.00" to the desired USD amount
@@ -75,7 +74,8 @@ Transaction Amount: Modify the amount in USD to convert to BTC by adjusting the 
 Run the Script: 
 Start the program, which will automatically open the webcam for real-time pushup detection.
 
-    Copy code:
+Copy code:
+
     python bitcoin_pushups.py
 
 
